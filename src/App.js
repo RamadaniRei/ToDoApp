@@ -1,7 +1,14 @@
-import "./App.css";
+import React from "react";
+import Header from "./components/Header";
+import CreateArea from "./components/CreateArea";
 
-function App() {
-  return <h1>Hello World</h1>;
-}
+const App = () => {
+  return (
+    <div>
+      <Header />
+      <CreateArea />
+    </div>
+  );
+};
 
 export default App;
