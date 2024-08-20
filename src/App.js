@@ -10,7 +10,6 @@ const App = () => {
     setNotes((prevNotes) => {
       return [...prevNotes, newNote];
     });
-    console.log(notes);
   }
   return (
     <div>
